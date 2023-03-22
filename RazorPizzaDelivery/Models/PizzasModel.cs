@@ -7,13 +7,15 @@
         private bool tomatoSauce;
         private bool garlicSauce;
         private bool peperoni;
+        private bool cheese;
         private bool chicken;
         private bool mushroom;
         private bool jalapeno;
+        private bool pinaple;
         private bool corn;
         private bool bacon;
         private bool onion;
-
+        private float finalPrice;
 
         public float basePrice { get; set; }=2;
         public string Imagetitle { get => imagetitle; set => imagetitle = value; }
@@ -27,5 +29,8 @@
         public bool Bacon { get => bacon; set => bacon = value; }
         public bool Onion { get => onion; set => onion = value; }
         public bool Chicken { get => chicken; set => chicken = value; }
+        public float FinalPrice { get => finalPrice; set => finalPrice = value; }
+        public bool Cheese { get => cheese; set => cheese = value; }
+        public bool Pinaple { get => pinaple; set => pinaple = value; }
     }
 }
