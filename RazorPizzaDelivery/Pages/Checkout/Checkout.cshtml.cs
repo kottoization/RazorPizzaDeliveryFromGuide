@@ -17,6 +17,9 @@ namespace RazorPizzaDelivery.Pages.Checkout
 
         public void OnGet()
         {
+            if (string.IsNullOrWhiteSpace(PizzaName))  PizzaName = "Custom";
+            if (string.IsNullOrWhiteSpace(ImageTitle)) ImageTitle = "Create";
+
         }
     }
 }
